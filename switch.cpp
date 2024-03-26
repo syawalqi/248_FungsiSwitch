@@ -25,3 +25,21 @@ int perkalian ( int a, int b){
 int pembagian ( int a, int b){
     return a / b;
 }
+
+int main(){
+     
+     int pilihan;
+     
+     do{
+        cout << "kalkulator sederhana" << endl;
+        cout << "====================" << endl;
+        cout << "1. Penjumlahan" << endl;
+        cout << "2. pengurangan" << endl;
+        cout << "3. perkalian" << endl;
+        cout << "4. pembagian" << endl;
+        cout << "5. Keluar" << endl;
+        cout << "====================" << endl;
+        cout << "Masukan menu pilihan" << endl;
+        cin >> pilihan;
+     }
+}
