@@ -68,5 +68,7 @@ int main(){
         }
         
      }
-     while (pilihan)
+     while (pilihan != 5);
+     system ("PAUSE");
+     system ("CLS");
 }
